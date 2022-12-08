@@ -1,17 +1,13 @@
 #!/bin/bash
 
-echo "Enter numbers. Enter 0 to stop."
-
 sum=0
-prd=1
-while read input
+for v in {1..50};
 do
-    if [[ $input == 0 ]]; then
-	break
-    fi
-    sum=`expr $sum + $input`
-    prd=`expr $prd \* $input`
+    sum=`expr $((sum+v))`
 done
+avg=`expr $((sum/50))`
 
 echo "The sum is $sum"
-echo "The product is $prd"
+echo "The average is $avg"
+
+exit 0
