@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "Enter five numbers"
+echo "Enter five numbers separated by a space"
 read a b c d e
 
-sum=`expr $a + $b + $c + $d + $e`
+((sum=a+b+c+d+e))
 
 let prd=a*b*c*d*e
 

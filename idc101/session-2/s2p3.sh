@@ -4,22 +4,22 @@ echo "Enter positive integers. Enter 0 to stop."
 
 read input
 
-if [[ $input == 0 ]]; then
+if [[ $input == 0 ]]; then # better write (( input == 0 ))
     exit 0
 fi
 
-min=$((input))
-max=$((input))
+min=$((input)) # better write ((min = input))
+max=$((input)) # better write ((max = input))
 
-while read input;
+while read input
 do
-    if [[ $input == 0 ]]; then
+    if [[ $input == 0 ]]; then # better write (( input == 0 ))
 	break
     fi
-    if [[ $input < $min ]]; then
+    if [[ $input < $min ]]; then # better write (( input < min ))
 	min=$((input))
     fi
-    if [[ $max < $input ]]; then
+    if [[ $max < $input ]]; then # better write (( max < input ))
 	max=$((input))
     fi
 done

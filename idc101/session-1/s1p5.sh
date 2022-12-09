@@ -3,9 +3,9 @@
 sum=0
 for v in {1..50};
 do
-    sum=`expr $((sum+v))`
+    ((sum=sum+v))
 done
-avg=`expr $((sum/50))`
+((avg=sum/50))
 
 echo "The sum is $sum"
 echo "The average is $avg"
