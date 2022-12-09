@@ -2,14 +2,34 @@
 
 ### Basic bash syntax
 
+#### Preliminaries
+
+```bash
+[ ]   # test
+[[ ]] # test, more flexible than [ ]
+(( )) # arithmetic evaluation
+&&    # and
+||    # or
+```
+
 #### Variables
 
 ```bash
-let "a+=1"
-((a += 1))
+var=10 # dont put spaces in between
+let x=2
+let z=$var+$x # dont use naked variables
+let "var+=1"
+((var += 1)) # arithmetic evaluation
 ```
 
+#### I/O
 
+```bash
+echo "Bash is cool."
+echo -n "Bash is cool." # does not print newline 
+printf "Bash is cool.\n"
+read input
+```
 
 #### Conditionals
 
