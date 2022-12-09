@@ -114,5 +114,16 @@ do
 done
 ```
 
-#### Strings
+#### Strings and arrays
 
+```bash
+str="Bash"
+len=${#str} # length
+echo ${str:3:1} # ${string:position:length}
+```
+
+```bash
+arr[0]=2; arr[1]=4; arr[2]=6; arr[3]=8
+echo ${arr[0]} # braces necessary
+((x = arr[0] + arr[1]))
+```
