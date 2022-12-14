@@ -3,10 +3,10 @@
 #### Contents
 
 - Group theory
-  - [Preserve group structure through homomorphisms](preserve-group-structure-through-homomorphisms)
-  - [Isomorphisms make the universe of groups smaller](isomorphisms-make-the-universe-of-groups-smaller)
-  - [Turn any homomorphism into an isomorphism](turn-any-homomorphism-into-an-isomorphism)
-  - [Element(s) can generate (sub)groups](element(s)-can-generate-(sub)groups)
+  - [Preserve group structure through homomorphisms](#preserve-group-structure-through-homomorphisms)
+  - [Isomorphisms make the universe of groups smaller](#isomorphisms-make-the-universe-of-groups-smaller)
+  - [Turn any homomorphism into an isomorphism](#turn-any-homomorphism-into-an-isomorphism)
+  - [Element(s) can generate (sub)groups](#element(s)-can-generate-(sub)groups)
 
 #### Preserve group structure through homomorphisms
 
