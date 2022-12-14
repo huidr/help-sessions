@@ -10,13 +10,17 @@ Note that distinct elements $a$ and $b$ of $G$ may have the same copy in $H$. In
 
 #### Isomorphisms make the universe of groups smaller
 
-Imagine a homomorphism $\varphi : G \to H$ which is both one-to-one and onto. Any two distinct elements $a$ and $b$ of $G$ will have distinct copies $a^{\prime}$ and $b^{\prime}$ in $H$. Further, any element $c^\{\prime}$ of $H$ is a copy of some unique $c$ in $G$. What does it say about groups $G$ and $H$? Well, they are the exactly the same copies as well. $G$ and $H$ are indistinguishable from each other --- just replace the symbol $G$, each element $a$ of $G$ and group operation on $G$ by the symbol $H$, the copy $a^{\prime}$ in $H$ and group operation on $H$ or vice versa. As for homomorphism, the map that gives the copies is called the isomorphism.
+Imagine a homomorphism $\varphi : G \to H$ which is both one-to-one and onto. Any two distinct elements $a$ and $b$ of $G$ will have distinct copies $a^{\prime}$ and $b^{\prime}$ in $H$. Further, any element $c^\{\prime}$ of $H$ is a copy of some unique $c$ in $G$. What does it say about groups $G$ and $H$? Well, they are the exactly the same copies as well. $G$ and $H$ are indistinguishable from each other &mdash; just replace the symbol $G$, each element $a$ of $G$ and group operation on $G$ by the symbol $H$, the copy $a^{\prime}$ in $H$ and group operation on $H$ or vice versa. As for homomorphism, the map that gives the copies is called the isomorphism.
 
 The above discussion implies that if $G$ and $H$ are isomorphic, then we need to study only one of them (the other is just an exact copy). This makes the study of groups easier by reducing the number of groups we study.
 
-#### Every homomorphism can be made into an isomorphism
+#### Turn any homomorphism into an isomorphism
 
+Isomorphism is a homomorphism which is also a bijection. Maybe if we knew how to turn any map into a bijection, then we might just be able to turn any homomorphism into an isomorphism. Let $f: A \to B$ be any map. Making $f$ onto is just a child's play &mdash; simply remove all elments from $B$ which do not have pre-images in $A$. But how to make $f$ one-to-one? Take an element $b$ of $B$ and pile up all elements $f^{-1}(b)$ of $A$ whose image is $b$ into a set and then map it to $b$. Doing this for all elements of $B$ makes $f$ one-to-one, except that $f$ now maps subsets of $A$ to $B$ instead of elements of $A$ to $B$. Let's call this new map $\tilde{f}$ to differentiate it from $f$. Also, let's use the notation $A/K$ to denote the collection of these subsets of $A$ and img$f$ to denote the image of $f$. Then given any map $f: A \to B$, there exists a unique bijection 
 
+$$ \tilde{f} : A/K \to \text{img}f .$$
+
+This is the first isomorphism theorem stated in terms of sets. The same applies to groups, except $K$ is the kernel of the homomorphism $f$. The quotient $A/K$ is group of the left cosets of $K$ in $A$.
 
 #### Element(s) can generate (sub)groups
 
