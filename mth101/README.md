@@ -10,7 +10,7 @@
   - [Isomorphisms make the universe of groups smaller](#isomorphisms-make-the-universe-of-groups-smaller)
   - [Turn any homomorphism into an isomorphism](#turn-any-homomorphism-into-an-isomorphism)
   - [Generate groups from elements](#generate-groups-from-elements)
-  - [New groups from old ones by taking quotients](new-groups-from-old-ones-by-taking-quotients)
+  - [New groups from old ones by taking quotients](#new-groups-from-old-ones-by-taking-quotients)
 
 #### Partition a group through its cosets
 
