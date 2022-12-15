@@ -1,12 +1,23 @@
 ## IISERM MTH101 Symmetry
 
+### Some
+
 #### Contents
 
 - Group theory
+  - [Partition a group through its cosets](#partition-a-group-through-its-cosets)
   - [Preserve group structure through homomorphisms](#preserve-group-structure-through-homomorphisms)
   - [Isomorphisms make the universe of groups smaller](#isomorphisms-make-the-universe-of-groups-smaller)
   - [Turn any homomorphism into an isomorphism](#turn-any-homomorphism-into-an-isomorphism)
   - [Generate groups from elements](#generate-groups-from-elements)
+
+#### Partition a group through its cosets
+
+Let $G$ be a group. Let $K$ be one of its subgroups. What that means is that $K$ is a group sitting inside the group $G$. Let's fix an element $a$ of $G$. Then we take the products $a \cdot x$ for all $x \in K$ and dump them into a set. Easily, this set is a subset of $G$; we call it a (left) coset of the subgroup $K$ and denote it by $aK$ (think of multiplying the elements of $K$ by $a$ from the left).
+
+Cancellation laws turn left multiplications into bijections on $G$. That is, if $ax = ay$, then $x=y$. This easily implies that all $ax$ are distinct for distinct $x$. That is, the coset $aK$ and the subgroup $K$ has the same number of elements. Also, every element $a$ of $G$ is in some coset of $K$, namely $aK$.
+
+Suppose $G$ is a finite group. From the above discussion, it might seem that there are as many cosets of $K$ as there are elements in $G$ since $aK$ is a coset whenever $a \in G$. Almost miraculously, it always happens that any two cosets of $K$ are either the same or are disjoint. We see that the disjoint union of all cosets equals the group $G$ itself. Let there be $n$ such distinct cosets. Therefore, we see that $n \cdot |K| = |G|$, a result so fundamental that it has a name of its own: Lagrange's theorem.
 
 #### Preserve group structure through homomorphisms
 
