@@ -20,7 +20,7 @@ Let $G$ be a group. Let $K$ be one of its subgroups. What that means is that $K$
 
 Cancellation laws turn left multiplications into bijections on $G$. That is, if $ax = ay$, then $x=y$. This easily implies that all $ax$ are distinct for distinct $x$. That is, the coset $aK$ and the subgroup $K$ has the same number of elements. Also, every element $a$ of $G$ is in some coset of $K$, namely $aK$.
 
-Suppose $G$ is a finite group. From the above discussion, it might seem that there are as many cosets of $K$ as there are elements in $G$ since $aK$ is a coset whenever $a \in G$. Almost miraculously, it always happens that any two cosets of $K$ are either the same or are disjoint. We see that the disjoint union of all cosets equals the group $G$ itself. Let there be $n$ such distinct cosets. Therefore, we see that $n \cdot |K| = |G|$, a result so fundamental that it has a name of its own: Lagrange's theorem.
+Suppose $G$ is a finite group. From the above discussion, it might seem that there are as many cosets of $K$ as there are elements in $G$ since $aK$ is a coset whenever $a \in G$. Almost miraculously, it always happens that any two cosets of $K$ are either the same or are disjoint. We see that the disjoint union of all cosets equals the group $G$ itself. Let there be $n$ such distinct cosets. Therefore, we see that $n \cdot |K| = |G|$, a result so fundamental that it has a name of its own: [Lagrange's theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)).
 
 #### Preserve group structure through homomorphisms
 
@@ -62,9 +62,9 @@ A permutation of a set is a bijection from the set to itself. We are simply rear
 
 Let $G$ be a group. We fix an element $g \in G$. The left multiplication by $g$ defined by $l_g(x) = gx$ for every $x \in G$ is a bijection on $G$ and thus may be considered as a permutation on $G$. It is easy to see why $l_g$ is bijection. It is one-to-one because $gx = gy$ implies $x = y$ (by cancellation). It is onto because every $y \in G$ has the pre-image $g^{-1}y$ for $g(g^{-1}y) = y$. Thus, every element $g$ of $G$ gives rise to a permutation $l_g$ on $G$. Let's dump all these permutations $l_g$ into a set $G^{\prime}$. It is easy to see that $G^{\prime}$ is a group with the identity element $l_e$. The group operation is simply composition of bijections. The inverse of $l_g$ is $l_{g^{-1}}$. Indeed, $G^{\prime}$ is a permutation group.
 
-A slightly more careful look reveals the isomorphism between $G$ and $G^{\prime}$. Simply map every $g$ to $l_g$. The bijectivity holds trivially by our construction. The homomorphism condition is verified easily. Therefore, every group is isomorphic to a permutation group. This result is so fundamental that it goes by a name: Cayley's theorem.
+A slightly more careful look reveals the isomorphism between $G$ and $G^{\prime}$. Simply map every $g$ to $l_g$. The bijectivity holds trivially by our construction. The homomorphism condition is verified easily. Therefore, every group is isomorphic to a permutation group. This result is so fundamental that it goes by a name: [Cayley's theorem](https://en.wikipedia.org/wiki/Cayley%27s_theorem).
 
 #### Reduce any cyclic group to modular arithmetic
 
-Any cyclic group, no matter who complicated it looks, is simply an operation on some integers. There is only one infinite cyclic group which is isomorphic to $\mathbb{Z}$. 
+Any cyclic group, no matter who complicated it looks, is simply an operation on some integers. There is only one infinite cyclic group which is isomorphic to $\mathbb{Z}$. Every finite cyclic group of order $n$ is isomorphic to $\mathbb{Z}/n\mathbb{Z}$. To see this, let $C_n$ be a cyclic group of order $n$ and we may write $C_n = \lbrace e, a, a^2, \ldots, a^{n-1} \rbrace $. Let $\varphi : \mathbb{Z}/n\mathbb{Z} \to 
 
