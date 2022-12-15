@@ -11,6 +11,8 @@
   - [Turn any homomorphism into an isomorphism](#turn-any-homomorphism-into-an-isomorphism)
   - [Generate groups from elements](#generate-groups-from-elements)
   - [New groups from old ones by taking quotients](#new-groups-from-old-ones-by-taking-quotients)
+  - [Every group is simply a permutation group](#every-group-is-simply-a-permutation-group)
+  - [Reduce any cyclic group to modular arithmetic](#reduce-any-cyclic-group-to-modular-arithmetic)
 
 #### Partition a group through its cosets
 
@@ -54,5 +56,15 @@ A normal subgroup $N$ of $G$ is one satisfying the property $gN = Ng$ for every 
 
 There is another equivalent way of looking at quotient groups. Suppose, as usual, $N$ is a normal subgroup of $G$. Let us define an equivalence relation on $G$ by declaring $a \sim b$ iff $aN = bN$. The equivalence class $[a]$ is then the set of all $b\in G$ such that $aN = bN$. Thus, $a$ and $b$ belong to the same coset if and only if they belong to the same equivalence class. We conclude that $[a] = aN$. Then we may write $G/N = \lbrace [a], [b], \ldots \rbrace$, where the equivalent classes are pairwise disjoint and their disjoint union equals the group $G$. Therefore, $G/N$ is a partition on $G$ consisting of equivalent classes $[a]$ (which are just cosets $aN$) and their operation is defined by $[a][b] = [ab]$, which is simply restating the operation $aN \cdot bN = abN$.
 
+#### Every group is simply a permutation group
 
+A permutation of a set is a bijection from the set to itself. We are simply rearranging the elements. Let $S_n$ be the set of all permutations of the set $\lbrace 1, 2, \ldots \rbrace$. If $\sigma, \pi \in S_n$ are two permutations, then their composition $\sigma\pi$ is also a permutation (because composition of bijections is still a bijection). This composition is associative. The identity map, denoted by $(1)$ can serve as identity permutation. Also, the inverse of any permutation $\sigma$ is given by its inverse map (since it is bijection). Therefore, $S_n$ is a group and $|S_n| = n!$ (the number of permutations of $n$ objects). This group $S_n$ is called the symmetric group. Any subgroup of $S_n$ is called a permutation group. In general, a permutation group is simply a group of permutations.
+
+Let $G$ be a group. We fix an element $g \in G$. The left multiplication by $g$ defined by $l_g(x) = gx$ for every $x \in G$ is a bijection on $G$ and thus may be considered as a permutation on $G$. It is easy to see why $l_g$ is bijection. It is one-to-one because $gx = gy$ implies $x = y$ (by cancellation). It is onto because every $y \in G$ has the pre-image $g^{-1}y$ for $g(g^{-1}y) = y$. Thus, every element $g$ of $G$ gives rise to a permutation $l_g$ on $G$. Let's dump all these permutations $l_g$ into a set $G^{\prime}$. It is easy to see that $G^{\prime}$ is a group with the identity element $l_e$. The group operation is simply composition of bijections. The inverse of $l_g$ is $l_{g^{-1}}$. Indeed, $G^{\prime}$ is a permutation group.
+
+A slightly more careful look reveals the isomorphism between $G$ and $G^{\prime}$. Simply map every $g$ to $l_g$. The bijectivity holds trivially by our construction. The homomorphism condition is verified easily. Therefore, every group is isomorphic to a permutation group. This result is so fundamental that it goes by a name: Cayley's theorem.
+
+#### Reduce any cyclic group to modular arithmetic
+
+Any cyclic group, no matter who complicated it looks, is simply an operation on some integers. There is only one infinite cyclic group which is isomorphic to $\mathbb{Z}$. 
 
