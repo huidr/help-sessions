@@ -11,4 +11,4 @@ Solutions for lab sessions
 
 ### [IISERM MTH101 Symmetry](mth101)
 
-[Group theory](mth101/README.md) is a bird's eye view of some fundamental concepts in group theory explained through intuitive analogies and examples.
+[Concepts Made Easy](mth101/README.md) is a bird's eye view of some fundamental concepts in symmetry and group theory explained through intuitive analogies.
