@@ -22,3 +22,4 @@ Solutions for lab sessions
   - [New groups from old ones by taking quotients](mth101/README.md#new-groups-from-old-ones-by-taking-quotients)
   - [Every group is simply a permutation group](mth101/README.md#every-group-is-simply-a-permutation-group)
   - [Reduce any cyclic group to modular arithmetic](mth101/README.md#reduce-any-cyclic-group-to-modular-arithmetic)
+  - [Dissecting cyclic groups through subgroups and quotients](mth101/README.md#dissecting-cyclic-groups-through-subgroups-and-quotients)
