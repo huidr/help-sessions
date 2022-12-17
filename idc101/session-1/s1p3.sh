@@ -12,7 +12,7 @@ do
     echo -n '*'
 done
 
-printf "\n\nDate: 06-11-2022 \n"
+printf "\n\nDate: $date \n"
 printf "Name: Devil \n\n"
 
 printf "I am learning to code in BASH script \n"

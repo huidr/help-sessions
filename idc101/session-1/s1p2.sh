@@ -12,3 +12,4 @@ cd
 cp file1 file2
 head file1
 tail file2
+

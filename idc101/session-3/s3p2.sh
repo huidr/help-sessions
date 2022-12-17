@@ -4,9 +4,8 @@ echo "Enter a string"
 read string
 
 len=${#string}
-max=$((len-1))
 
-for (( v=$max; v>= 0; v-- )) # note the C++ style syntax
+for (( v=len-1; v>= 0; v-- )) # note the C++ style syntax
 do
     s=${string:v:1}
     echo -n "$s"
