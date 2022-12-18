@@ -23,3 +23,7 @@ Solutions for lab sessions
   - [Every group is simply a permutation group](mth101/README.md#every-group-is-simply-a-permutation-group)
   - [Reduce any cyclic group to modular arithmetic](mth101/README.md#reduce-any-cyclic-group-to-modular-arithmetic)
   - [Dissecting cyclic groups through subgroups and quotients](mth101/README.md#dissecting-cyclic-groups-through-subgroups-and-quotients)
+
+### Other things you might find useful
+
+- [IISERM grading system](grading.md): how to calculate your grade in a course, SPI in a semester and overall CPI?
