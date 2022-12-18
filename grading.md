@@ -30,7 +30,7 @@ In a nutshell, your grades depend on how well your peers are doing. Of course, y
 
 #### Some instructors grade differently
 
-Some instructors are more generous and might give you a B if you score above average or even slightly below average. That's cool, right? I must warn you though, that the probability of running into these kind of instructors drops once you major in mathematics. But this shouldn't stop you from becoming a math major.
+Some instructors are more generous and might give you a B if you score above average or even slightly below average. That's cool, right? 
 
 Some instructors walk on an entirely different route. They give you absolute grades by declaring cutoffs for each grade. For example, you get an A if your score is 75 or higher in a course.
 
@@ -60,4 +60,4 @@ At least, this is how CPI is defined and supposed to work.
 
 #### Finally I am done calculating my horrible CPI. How impactful is it in my career?
 
-Well, it depends on which career path you are taking. If you plan to leave academia, your CPI doesn't have much value and you will probably forget it in a couple of years. If you plan to stay in academia, it helps to have a good CPI. I have known people who had a hard time getting into nice places even with a near perfect CPI and some others get into some of the best universities in the world with barely 8/10. It matters more what *cool* things you did during your five years in IISERM.
+Well, it depends on which career path you are taking. If you plan to leave academia, your CPI doesn't have much value and you will probably forget it in a couple of years. If you plan to stay in academia, it helps to have a good CPI. But CPI might not be as important as you think it is. I have known people who had a hard time getting into nice places even with a near perfect CPI and some others get into some of the best universities in the world with barely 8/10. It matters more what *cool* things you did during your five years in IISERM.
